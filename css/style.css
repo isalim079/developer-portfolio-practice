@@ -76,13 +76,14 @@ header {
 
 .main-description {
     width: 400px;
+    margin-top: 200px;
 }
 
 .main-title-description {
     color: #151414;
     font-size: 40px;
     font-weight: 700;
-    padding: 15px;
+    padding: 5px;
 }
 
 .title-description {
@@ -103,7 +104,9 @@ header {
 .checklist {
     padding: 10px;
 }
-
+.check{
+    margin-bottom: 7px;
+}
 .check::before {
     content: '✓';
     color: #16D887;
@@ -117,12 +120,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
+    margin-left: 30px;
 }
 
 .plan-icons {
     display: flex;
     list-style: none;
+    
 }
 
 .web-development-section,
@@ -146,4 +151,49 @@ header {
     font-size: 25px;
     font-weight: 700;
     padding: 10px;
+}
+
+/* Footer Section */
+/* .w-title {
+    /* color: #FFF; */
+    /* font-size: 40px;
+    font-weight: 700; */ 
+
+
+/* .watch-cover-container {
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 200px;
+    margin: 200px;
+    width: 1140px;
+    height: 301px;
+} */
+.text-section{
+    background-image: url("../images/gradient2.png"), url("../images/watch.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    display: block;
+    margin-left: 150px;
+
+}
+.text-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.text-btn{
+    padding: 15px 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 30px;
+    background-color: white;
+    color: #F15B22;
+    border-style: none;
+    border-radius: 8px;
 }
