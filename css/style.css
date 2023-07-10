@@ -61,10 +61,12 @@ header {
     background-blend-mode: screen;
     margin-top: 180px;
 }
-.main-image{
+
+.main-image {
     margin-top: -196px;
     margin-left: -23px;
 }
+
 .main-container {
     display: flex;
     align-items: center;
@@ -91,7 +93,7 @@ header {
     line-height: 25px;
 }
 
-ul li {
+.checklist {
     padding: 5px;
     list-style: none;
     font-size: 16px;
@@ -102,10 +104,46 @@ ul li {
     padding: 10px;
 }
 
-ul li::before {
+.check::before {
     content: '✓';
     color: #16D887;
     width: 20px;
     height: 20px;
     margin-right: 5px;
+}
+
+/* My Plan Section */
+.my-plans-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.plan-icons {
+    display: flex;
+    list-style: none;
+}
+
+.web-development-section,
+.js-section,
+.smoking-section,
+.ecommerce-section {
+    margin-right: 100px;
+    text-align: center;
+}
+
+.my-plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px;
+}
+
+.icon-title {
+    color: #151414;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
 }
