@@ -177,6 +177,8 @@ header {
     border-radius: 8px;
     display: block;
     margin-left: 150px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 
 }
 .text-title{
@@ -196,4 +198,75 @@ header {
     color: #F15B22;
     border-style: none;
     border-radius: 8px;
+}
+/* footer */
+.right-description{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+    line-height: 25px;
+}
+.phone{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.email{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+    width: 1600px;
+    height: 577px;
+    margin-top: -300px;
+    align-items: center;   
+}
+.right-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-icon{
+    padding-top: 25px;
+}
+.f-icon{
+    margin-right: 15px;
+}
+.subscribe{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.email-box{
+    width: 325px;
+    height: 64px;   
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: #151414;
+    
+}
+input::placeholder{
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 25px;
+}
+.subscribe-btn{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 32px;
+    border-radius: 8px;
+}
+.fbtn{
+    margin-top: 15px;
 }
